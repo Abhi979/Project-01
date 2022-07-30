@@ -1,0 +1,281 @@
+
+/* .list{
+    display: flex;
+    
+    justify-content: space-around;
+   
+}
+.navbar-container{
+    display: flex;
+  
+    justify-content: space-between;
+     width: 50%; 
+    
+    
+
+}
+.list li{
+    margin: 0px 20px 0px 20px; 
+}
+.hero-image{
+    position: absolute;
+    left: 0px;
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+    
+
+}
+.square{
+
+    justify-content: right;
+
+
+    position: absolute;
+
+
+}
+
+.icons  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; bottom: 10px; left: 0;
+   width: 100%;
+   
+}
+h4{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; bottom: 50px; left: 0;
+   width: 100%;
+
+
+}
+ .button-email{
+    
+  justify-content: center;
+  align-items: center;
+
+} 
+h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; top: 200px; left: 0;
+   width: 100%;
+   font-weight: 900;
+}
+p{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 25em; 
+    height: 10em;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.globe{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; top: 100px; left: 0;
+   width: 100%;
+}
+.star{
+    display: flex;
+  justify-content: right;
+  align-items: center;
+  position: absolute; top: 100px; left: 0;
+   width: 100%;
+
+}
+.button-group{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute; top: 10px; left: 0;
+     width: 100%;
+
+}
+.nav-button{
+    border-radius: 35px;
+  
+  padding: 20px; 
+  width: 150px;
+  height: 10px;
+  
+}  */
+
+
+
+body {
+    padding: 40px 60px 0 60px;
+    margin:  0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 35px;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.button-group button {
+    padding: 10px 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.button-group .search-icon svg {
+    height: 25px;
+
+    /* border: 1px solid red; */
+}
+
+
+
+
+.hero-container .hero-image {
+    position: absolute;
+    left: 80px;
+    top: 160px;
+}
+
+.hero-container .hero-image img {
+    height: 400px;
+    width: 300px;
+}
+
+.hero-container .square img {
+    height: 250px;
+    width: 250px;
+}
+
+.hero-container .square {
+    position: absolute;
+    top: 360px;
+    left: 180px;
+}
+
+.hero-container .globe {
+    position: absolute;
+    right: 45%;
+}
+
+.hero-container .star{
+    position: absolute;
+    left: 80%;
+    
+}
+
+
+.hero-container-right {
+    width: 60%;
+    position: absolute;
+    right: 80px;
+    
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-heading {
+    font-size: 30px;
+    padding-top: 200;
+    margin-top: 900;
+    font-family: sans-serif;
+    font-weight: 900;
+     /* border: 1px solid red;   */
+     text-align: left;
+    
+}
+
+.hero-description {
+    text-align: center;
+    width: 60%;
+    color: rgb(130, 130, 130);
+    position: relative;
+    left: -200px;
+}
+
+.button-email {
+    padding: 10px 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 50px;
+    position: relative;
+    left: -200px;
+}
+
+.button-join {
+    padding: 10px 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+    position: relative;
+    left: -200px;
+}
+.hero-heading{
+    position: relative;
+    left: -200px;
+
+}
+.icons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; bottom: -150px; left: -200px;
+     width: 100%;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; bottom: -150px; left: -200px;
+     width: 100%;
+     color: rgb(52, 52, 51);
+     font-size: 20px;
+     font-weight: 600;
+
+
+}
+
